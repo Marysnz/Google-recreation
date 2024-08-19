@@ -1,0 +1,116 @@
+/*top navigation bar*/
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+/*styling the <a>tags in nav bar*/
+nav a{
+    margin: 10px;
+    text-decoration: none;
+}
+/*underline the the nav blocks only when hovered/focused */
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+}
+/*header representing google icon*/
+header{
+    display: flex;
+    justify-content: center;
+}
+/*setting apart each google word for different colors */
+header div{
+    font-size: 90px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.child1, .child4{
+    color: #4285F4;
+}
+.child2, .child6{
+    color: #DB4437;
+}
+.child3{
+    color: #F4B400;
+}
+.child5{
+    color: #0F9D58;
+}
+/*main including the search bar*/
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+/*search bar*/
+.search{
+    width: 550px;
+    height: 50px;
+    font-size: large;
+    border-radius: 30px;
+    border: 1px solid #cccccc;
+    opacity: .5;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+/*show box shadow when hovering the search bar */
+.search:hover, .search:focus{
+    box-shadow: 1px 1px 2.5px 1px #a89494;
+}
+/*search-button*/
+.search-button{
+    width: 100px;
+    height:35px;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+}
+/*buttons block*/
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+/*buttons' child elements*/
+.child-btn{
+    display: inline-block;
+    margin-left: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    width: 130px;
+    height:36px;
+    color: #000;
+    cursor: pointer;
+    opacity: .7;
+}
+.child-btn{
+    border: none;
+}
+/*adjusting the style when hovering/focusing over each button*/
+.child-btn:hover,
+.child-btn:focus {
+    border: 1px solid #cccccc;
+    opacity: .95;
+}
+.child-btn{
+    outline: none;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f4e6;
+    margin-top: 330px;
+    margin-bottom: 0;
+    height: 34px;
+    padding-top: 20px;
+}
+.footer-div{
+    margin:15px;
+}
+/*underline appears when hovering/focusing the footer blocks*/
+.footer-div:hover, footer-div:focus{
+    text-decoration: underline;
+}
